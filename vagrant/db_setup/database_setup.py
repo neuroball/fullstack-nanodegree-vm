@@ -25,7 +25,7 @@ class MenuItem(Base):
         Integer, primary_key = True)
     course = Column(
         String(250))
-    descriptin = Column(
+    description = Column(
         String(250))
     price = Column(
         String(8))
